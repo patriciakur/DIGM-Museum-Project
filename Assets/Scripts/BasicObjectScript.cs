@@ -97,5 +97,6 @@ public class BasicObjectScript : MonoBehaviour
     public void InstantFaceForward()
     {
         transform.rotation = Quaternion.Euler(0, 0, 0);
+        transform.position = Vector3.zero;
     }
 }
